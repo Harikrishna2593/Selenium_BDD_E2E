@@ -1,94 +1,47 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="12" time="233.61">
-    <testcase classname="Create new contact in cogmento" name="Create new contact with different set of data" time="33.647">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="86.274">
+    <testcase classname="Companies Page Feature" name="Create new Company scenario" time="22.367">
         <system-out><![CDATA[Given user has already logged in to application.............................passed
-Given user moves to create new contact page and verify label................passed
-When user fills the new contact form from given sheetname "contacts" and rownumber 0.passed
+Given user is on home page and verifies account name "Photon" and account user "Har Kris".passed
+When user moves to menu list and select add new company.....................passed
+Then user is on company page and verifies page title "Create new Company"...passed
+And user fills the form comapany name "Profilo" and website "www.profilo.com" and email "profilo@outlook.com".passed
+And user enters data for description "Profilo software pvt lmtd" and no.of employees "10000".passed
 And user clicks on save button..............................................passed
-Then verify the contact profile name........................................passed
+Then user verifies company name and quits...................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Create new contact in cogmento" name="Create new contact with different set of data 2" time="22.325">
+    <testcase classname="Companies Page Feature" name="Create new Company scenario 2" time="21.271">
         <system-out><![CDATA[Given user has already logged in to application.............................passed
-Given user moves to create new contact page and verify label................passed
-When user fills the new contact form from given sheetname "contacts" and rownumber 1.passed
+Given user is on home page and verifies account name "Photon" and account user "Har Kris".passed
+When user moves to menu list and select add new company.....................passed
+Then user is on company page and verifies page title "Create new Company"...passed
+And user fills the form comapany name "Kuhana" and website "www.Kuhana.com" and email "Kuhana@outlook.com".passed
+And user enters data for description "Kuhana software pvt lmtd" and no.of employees "30000".passed
 And user clicks on save button..............................................passed
-Then verify the contact profile name........................................passed
+Then user verifies company name and quits...................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Create new contact in cogmento" name="Create new contact with different set of data 3" time="22.678">
+    <testcase classname="Companies Page Feature" name="Create new Company scenario 3" time="21.323">
         <system-out><![CDATA[Given user has already logged in to application.............................passed
-Given user moves to create new contact page and verify label................passed
-When user fills the new contact form from given sheetname "contacts" and rownumber 2.passed
+Given user is on home page and verifies account name "Photon" and account user "Har Kris".passed
+When user moves to menu list and select add new company.....................passed
+Then user is on company page and verifies page title "Create new Company"...passed
+And user fills the form comapany name "Quantum" and website "www.Quantum.com" and email "Quantum@outlook.com".passed
+And user enters data for description "Quantum software pvt lmtd" and no.of employees "60000".passed
 And user clicks on save button..............................................passed
-Then verify the contact profile name........................................passed
+Then user verifies company name and quits...................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Create new contact in cogmento" name="Create new contact with different set of data 4" time="25.511">
+    <testcase classname="Companies Page Feature" name="Create new Company scenario 4" time="21.044">
         <system-out><![CDATA[Given user has already logged in to application.............................passed
-Given user moves to create new contact page and verify label................passed
-When user fills the new contact form from given sheetname "contacts" and rownumber 3.passed
+Given user is on home page and verifies account name "Photon" and account user "Har Kris".passed
+When user moves to menu list and select add new company.....................passed
+Then user is on company page and verifies page title "Create new Company"...passed
+And user fills the form comapany name "Amazon" and website "www.Amazon.com" and email "Amazon@outlook.com".passed
+And user enters data for description "Amazon software pvt lmtd" and no.of employees "90000".passed
 And user clicks on save button..............................................passed
-Then verify the contact profile name........................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Create new contact in cogmento" name="Create new contact with different set of data 5" time="22.91">
-        <system-out><![CDATA[Given user has already logged in to application.............................passed
-Given user moves to create new contact page and verify label................passed
-When user fills the new contact form from given sheetname "contacts" and rownumber 4.passed
-And user clicks on save button..............................................passed
-Then verify the contact profile name........................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Create new contact in cogmento" name="Create new contact with different set of data 6" time="22.779">
-        <system-out><![CDATA[Given user has already logged in to application.............................passed
-Given user moves to create new contact page and verify label................passed
-When user fills the new contact form from given sheetname "contacts" and rownumber 5.passed
-And user clicks on save button..............................................passed
-Then verify the contact profile name........................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Home Page Feature" name="Home page title" time="10.281">
-        <system-out><![CDATA[Given user has already logged in to application.............................passed
-Given user is on Home page..................................................passed
-When user gets the title of the page........................................passed
-And page title should be "Cogmento CRM".....................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Home Page Feature" name="Home page menu list count" time="11.871">
-        <system-out><![CDATA[Given user has already logged in to application.............................passed
-Given user is on Home page..................................................passed
-Then user gets home menu section............................................passed
-And menu section count should be 13.........................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Login page feature" name="Login page title" time="4.64">
-        <system-out><![CDATA[Given user is on login page.................................................passed
-When user gets the title of the page........................................passed
-And page title should be "Cogmento CRM".....................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Login page feature" name="Forgot password link" time="6.877">
-        <system-out><![CDATA[Given user is on login page.................................................passed
-Then forgot your password link should be displayed..........................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Login page feature" name="Login with correct credentials" time="38.044">
-        <system-out><![CDATA[Given user is on login page.................................................passed
-When user enters username "hari251993@gmail.com"............................passed
-And user enters password "Harikrishna@2025".................................passed
-And user clicks on Login button.............................................passed
-When user gets the title of the page........................................passed
-And page title should be "Cogmento CRM".....................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Login page feature" name="Login with correct credentials using skip concept" time="11.7">
-        <system-out><![CDATA[Given user is on login page.................................................passed
-When user enters username "hari251993@gmail.com"............................passed
-And user enters password "Harikrishna@2025".................................passed
-And user clicks on Login button.............................................passed
-When user gets the title of the page........................................passed
-And page title should be "Cogmento CRM".....................................passed
+Then user verifies company name and quits...................................passed
 ]]></system-out>
     </testcase>
 </testsuite>

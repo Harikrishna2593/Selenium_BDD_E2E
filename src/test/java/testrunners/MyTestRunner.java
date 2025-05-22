@@ -10,6 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 		features = {"src/test/resources/AppFeatures"},
 		glue = {"stepdefinitions","AppHooks"},
 //		tags = "@Login",
+		dryRun = false,
 		monochrome = true,
 		plugin = {"pretty",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:", //extent reporter adapter

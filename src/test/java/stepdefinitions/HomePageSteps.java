@@ -57,5 +57,15 @@ public class HomePageSteps {
 		Assert.assertTrue(homepage.getHomeMenuListCount() == expectedMenuListCount);
 	}
 	
+	@Given("user is on home page and verifies account name {string} and account user {string}")
+	public void user_is_on_home_page_and_verifies_account_name_and_account_user(String Exp_Acc_Name, String Exp_Acc_UserName) {
+		
+		String actual_AccName = homepage.getAccountName();
+		String actual_AccUserName = homepage.getAccountUserName();
+		
+		Assert.assertEquals(Exp_Acc_Name, actual_AccName);
+		Assert.assertEquals(Exp_Acc_UserName, actual_AccUserName);
+	   
+	}
 	
 }
