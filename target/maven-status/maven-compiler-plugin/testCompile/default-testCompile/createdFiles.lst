@@ -1,0 +1,6 @@
+testrunners\MyTestRunner.class
+stepdefinitions\ContactsPageSteps.class
+stepdefinitions\LoginPageSteps.class
+AppHooks\ApplicationHooks.class
+reRun\RerunTestRunner.class
+stepdefinitions\HomePageSteps.class

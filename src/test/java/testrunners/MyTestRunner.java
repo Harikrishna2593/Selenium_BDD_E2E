@@ -14,7 +14,8 @@ import io.cucumber.junit.CucumberOptions;
 		plugin = {"pretty",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:", //extent reporter adapter
 				"timeline:test-output-thread/",          //file with thread count
-				"rerun:target/failedScenarios.txt"		//file with failed scenario
+				"rerun:target/failedScenarios.txt",		//file with failed scenario
+				"junit:target/cucumber-reports/Cucumber.xml"
 		}
 		)
 
