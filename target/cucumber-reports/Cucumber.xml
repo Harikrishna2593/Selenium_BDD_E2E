@@ -1,44 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="86.274">
-    <testcase classname="Companies Page Feature" name="Create new Company scenario" time="22.367">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="98.739">
+    <testcase classname="Companies Page Feature" name="Create new Company scenario" time="25.251">
         <system-out><![CDATA[Given user has already logged in to application.............................passed
 Given user is on home page and verifies account name "Photon" and account user "Har Kris".passed
 When user moves to menu list and select add new company.....................passed
 Then user is on company page and verifies page title "Create new Company"...passed
 And user fills the form comapany name "Profilo" and website "www.profilo.com" and email "profilo@outlook.com".passed
+And user selects access as private and select username "Har Kris" from dropdown.passed
+Then user enters Address "patel" "Hyd" "Telangana" "500013".................passed
 And user enters data for description "Profilo software pvt lmtd" and no.of employees "10000".passed
 And user clicks on save button..............................................passed
 Then user verifies company name and quits...................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Companies Page Feature" name="Create new Company scenario 2" time="21.271">
+    <testcase classname="Companies Page Feature" name="Create new Company scenario 2" time="24.342">
         <system-out><![CDATA[Given user has already logged in to application.............................passed
 Given user is on home page and verifies account name "Photon" and account user "Har Kris".passed
 When user moves to menu list and select add new company.....................passed
 Then user is on company page and verifies page title "Create new Company"...passed
 And user fills the form comapany name "Kuhana" and website "www.Kuhana.com" and email "Kuhana@outlook.com".passed
+And user selects access as private and select username "Har Kris" from dropdown.passed
+Then user enters Address "patel" "Hyd" "Telangana" "500013".................passed
 And user enters data for description "Kuhana software pvt lmtd" and no.of employees "30000".passed
 And user clicks on save button..............................................passed
 Then user verifies company name and quits...................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Companies Page Feature" name="Create new Company scenario 3" time="21.323">
+    <testcase classname="Companies Page Feature" name="Create new Company scenario 3" time="24.223">
         <system-out><![CDATA[Given user has already logged in to application.............................passed
 Given user is on home page and verifies account name "Photon" and account user "Har Kris".passed
 When user moves to menu list and select add new company.....................passed
 Then user is on company page and verifies page title "Create new Company"...passed
 And user fills the form comapany name "Quantum" and website "www.Quantum.com" and email "Quantum@outlook.com".passed
+And user selects access as private and select username "Har Kris" from dropdown.passed
+Then user enters Address "patel" "Hyd" "Telangana" "500013".................passed
 And user enters data for description "Quantum software pvt lmtd" and no.of employees "60000".passed
 And user clicks on save button..............................................passed
 Then user verifies company name and quits...................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Companies Page Feature" name="Create new Company scenario 4" time="21.044">
+    <testcase classname="Companies Page Feature" name="Create new Company scenario 4" time="24.711">
         <system-out><![CDATA[Given user has already logged in to application.............................passed
 Given user is on home page and verifies account name "Photon" and account user "Har Kris".passed
 When user moves to menu list and select add new company.....................passed
 Then user is on company page and verifies page title "Create new Company"...passed
 And user fills the form comapany name "Amazon" and website "www.Amazon.com" and email "Amazon@outlook.com".passed
+And user selects access as private and select username "Har Kris" from dropdown.passed
+Then user enters Address "patel" "Hyd" "Telangana" "500013".................passed
 And user enters data for description "Amazon software pvt lmtd" and no.of employees "90000".passed
 And user clicks on save button..............................................passed
 Then user verifies company name and quits...................................passed

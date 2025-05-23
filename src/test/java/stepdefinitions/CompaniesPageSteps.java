@@ -53,4 +53,25 @@ public class CompaniesPageSteps {
 
 	}
 	
+	
+		@Then("user selects access as private and select username {string} from dropdown")
+		public void user_selects_access_as_private_and_select_username_from_dropdown(String exp_user) {
+			
+			newCompanyPage.clickOnPublicAccess();
+			String act_user = newCompanyPage.selectPrivateAllowedAcessUser();
+			Assert.assertEquals(exp_user, act_user);
+		   
+		}
+
+
+		@Then("user enters Address {string} {string} {string} {string}")
+		public void user_enters_address(String street, String city, String state, String pincode) {
+			
+			newCompanyPage.enterAddressDetails(street, city, state, pincode);
+			
+		}
+
+
+
+	
 }

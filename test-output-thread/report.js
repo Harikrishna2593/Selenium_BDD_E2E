@@ -1,47 +1,47 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "bc2cc40a-4888-4b7d-a676-3a5ee0cfee55",
+    "id": "a068fde0-3195-478d-b795-c41e13dbdf29",
     "feature": "Companies Page Feature",
     "scenario": "Create new Company scenario",
-    "start": 1747928586068,
+    "start": 1747997582567,
     "group": 1,
     "content": "",
     "tags": "",
-    "end": 1747928607392,
+    "end": 1747997607819,
     "className": "passed"
   },
   {
-    "id": "a3dd3b34-2f85-4ec0-a0b2-695c3e8b30b3",
+    "id": "5f3e1ebc-9eff-4c8d-8535-88db043b8c1e",
     "feature": "Companies Page Feature",
     "scenario": "Create new Company scenario",
-    "start": 1747928607409,
+    "start": 1747997656422,
     "group": 1,
     "content": "",
     "tags": "",
-    "end": 1747928628454,
+    "end": 1747997681134,
     "className": "passed"
   },
   {
-    "id": "91636c93-acc5-460b-9e39-85b7a7797231",
+    "id": "9848f491-5de6-4f02-aec9-661569007358",
     "feature": "Companies Page Feature",
     "scenario": "Create new Company scenario",
-    "start": 1747928564779,
+    "start": 1747997607840,
     "group": 1,
     "content": "",
     "tags": "",
-    "end": 1747928586050,
+    "end": 1747997632182,
     "className": "passed"
   },
   {
-    "id": "79bc9a77-e9d9-4120-8117-038c46f990a3",
+    "id": "7728b0a1-9087-4f81-b2f6-09ea1bee2c69",
     "feature": "Companies Page Feature",
     "scenario": "Create new Company scenario",
-    "start": 1747928542348,
+    "start": 1747997632191,
     "group": 1,
     "content": "",
     "tags": "",
-    "end": 1747928564715,
+    "end": 1747997656414,
     "className": "passed"
   }
 ]);
