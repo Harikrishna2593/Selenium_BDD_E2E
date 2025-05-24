@@ -71,15 +71,14 @@ public class HomePage {
 		
 		Actions actions = new Actions(driver);
 		actions.moveToElement(compnies).build().perform();
-		
-		new_compy.click();
-	
 		try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
 		
+		new_compy.click();
+
 		return new CompaniesPage(driver);
 	
 	}

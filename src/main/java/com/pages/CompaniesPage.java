@@ -27,6 +27,8 @@ public class CompaniesPage {
 	private By city = By.xpath("//input[@name='city']");
 	private By state = By.xpath("//input[@name='state']");
 	private By pinCode = By.xpath("//input[@name='zip']");
+	private By personalEmail = By.xpath("//input[@placeholder='Personal email, Business, Alt...' and @name='name']");
+	private By industry = By.xpath("//input[@name='industry']");
 	
 	
 	//2. Constructor of the page class
@@ -105,6 +107,12 @@ public class CompaniesPage {
 		driver.findElement(this.state).sendKeys(state);
 		driver.findElement(pinCode).sendKeys(pincode);
 		
+	}
+	
+	public void enterEmailandIndustry(String email, String industry)
+	{
+		driver.findElement(personalEmail).sendKeys(email);
+		driver.findElement(this.industry).sendKeys(industry);
 	}
 	
 	
