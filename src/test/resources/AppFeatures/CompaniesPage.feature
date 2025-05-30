@@ -18,7 +18,7 @@ Then user enters Address "<Street>" "<City>" "<State>" "<Pincode>"
 Then user enters personal email "<peronalEmail>" and Industry "<Inudstry>"
 And user enters data for description "<description>" and no.of employees "<no_ofEpm>"
 And user clicks on save button
-Then user verifies company name and quits 
+Then user verifies company name and quits  
 
 
 Examples: 
